@@ -1,0 +1,6 @@
+<article class="group-list__item entitled-list" title="{{::$ctrl.title}}">
+    <h1>{{::$ctrl.title}}</h1>
+    <ul>
+        <li ng-repeat="item in $ctrl.items" href="{{item[$ctrl.itemLink]}}">{{item[$ctrl.itemName]}}</li>
+    </ul>
+</article>
